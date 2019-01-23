@@ -20,6 +20,18 @@ public class LevelTraversal {
      *    3.队列（Queue）
      */
     public String traverse(TreeNode root) {
-        return "";
+        if (length(TreeNode root) != 0 ) {
+            for (int i=0 ; i <= length(TreeNode root) ; i++){
+                letter = letter.contact(TreeNode getLeftChild);
+                letter = letter.contact(TreeNode getRightChild);
+                return traverse(TreeNode root)
+            }
+        }
+    print(letter);
     }
+
+
+
+
+
 }
